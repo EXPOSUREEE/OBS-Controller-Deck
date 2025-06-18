@@ -4,7 +4,7 @@ OBS Controller Deck -
 
 A customizable stream deck alternative for OBS Studio with web-based controls, perfect for streamers and content creators.
 
-Features:
+# Features:
 
 🎚️ Scene switching with customizable buttons
 
@@ -20,11 +20,11 @@ Features:
 
 🎨 Modern, responsive UI
 
-Prerequisites:
+# Prerequisites:
 
 OBS Studio installed
 
-OBS WebSocket plugin (v5.x or newer)
+OBS WebSocket Server Enabled
 
 Node.js v16+ (included in the executable version)
 
@@ -32,24 +32,30 @@ Installation:
 Just Run OBS-Controller-Deck Setup.exe
 
 
+# How to Enable OBS WebSocket Server
 
-Open OBS Studio
+- Open OBS Studio
 
-Go to Tools > WebSocket Server Settings
+- Go to Tools > WebSocket Server Settings
 
-Enable WebSocket server (default port: 4455)
+![Screenshot 2025-06-18 141838](https://github.com/user-attachments/assets/aa07b2d1-85b6-4d34-8161-79719075aebf)
 
-Set a password if desired
+- Enable WebSocket server (default port: 4455)
+
+- Disable password auth
+
+![Screenshot 2025-06-18 142000](https://github.com/user-attachments/assets/fac9197e-958a-4e27-96f1-02d818b03058)
 
 Controller Deck:
 
-Launch the application
+- Launch the application
 
-Access the interface at http://localhost:3000
+- Access the interface at http://localhost:3000 for same machine or Access from any device connected to same network by IP shown in Terminal.
 
-Select your preferred scenes from the initial setup
+- Select your preferred scenes from the initial setup (If you have more than 6 Scenes in your OBS Studio)
 
-Usage -
+# Usage -
+
 Scene Controls:
 
 Click any scene button to switch instantly
@@ -68,15 +74,9 @@ Start/Stop streaming with dedicated buttons
 
 Start/Stop recording with one click
 
-# Output will be in the dist/ folder
 
-Troubleshooting
-Issue	Solution
-Can't connect to OBS	Verify WebSocket server is running in OBS
-Buttons not working	Check OBS logs for WebSocket errors
-Blank screen	Ensure you're accessing http://localhost:3000
-Missing scenes	Re-select scenes from the configuration panel
-Release Notes
+# Release Notes
+
 v1.0.0 - Initial Release
 Basic scene switching functionality
 
@@ -86,12 +86,8 @@ Stream/recording controls
 
 Automatic update checking
 
-Roadmap:
+# Roadmap:
 
 Add customizable hotkeys
 
-Support for multiple OBS instances
-
 Mobile app version
-
-Plugin system for additional functionality
