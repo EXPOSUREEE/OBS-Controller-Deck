@@ -50,7 +50,7 @@ Controller Deck:
 
 - Launch the application
 
-- Access the interface at http://localhost:3000 for same machine or Access from any device connected to same network by IP shown in Terminal.
+- Access the interface at http://localhost:3000 on same machine or Access from any device connected to same network by IP shown in Terminal.
 
 - Select your preferred scenes from the initial setup (If you have more than 6 Scenes in your OBS Studio)
 
