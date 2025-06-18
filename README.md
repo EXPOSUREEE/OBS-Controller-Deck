@@ -1,5 +1,11 @@
 # OBS-Controller-Deck
 
+<div style="display: flex;">
+    <img src="https://github.com/user-attachments/assets/f9133c26-f82b-45bf-81b4-42fa833c2778" alt="Image 1" style="width:45%;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/user-attachments/assets/3930d23e-60d0-4058-9169-46ec53cd9672" alt="Image 2" style="width:45%;">
+</div>
+
 OBS Controller Deck -
 
 A customizable stream deck alternative for OBS Studio with web-based controls, perfect for streamers and content creators.
